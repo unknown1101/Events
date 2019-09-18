@@ -3,8 +3,8 @@ var app = express();
 var path = require('path');
 
 // viewed at http://localhost:8080
-app.get('/', function(req, res) {
+app.get('/privacy', function(req, res) {
     res.sendFile(path.join(__dirname , '/PrivacyPolicy.html'));
 });
 
-app.listen(8080);
+app.listen(process.env.PORT ||8080);
