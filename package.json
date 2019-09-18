@@ -1,0 +1,25 @@
+{
+  "name": "eventsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unknown1101/Events.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unknown1101/Events/issues"
+  },
+  "homepage": "https://github.com/unknown1101/Events#readme"
+}
